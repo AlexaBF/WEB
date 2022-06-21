@@ -7,13 +7,13 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class login {
     public static void main(String[] args) throws Exception {
-        System.setProperty("webdriver.chrome.driver", "/Users/alexabasurto/Desktop/ejercicios_computacion/TC3004b/tests/selenium-tests-BAMX/chromedriver");
+        System.setProperty("webdriver.chrome.driver", "computer direction***/chromedriver");
         WebDriver driver = new ChromeDriver();
         driver.manage().window().maximize();
         //---------------------------------------------------------------------------------------
         //---------------------------------------------------------------------------------------
         //------------------------------super ususario-------------------------------------------
-        //driver.get("http://44.195.187.31:3000");
+        
         driver.get("http://localhost:3000/login");
         Thread.sleep(3000);
 
