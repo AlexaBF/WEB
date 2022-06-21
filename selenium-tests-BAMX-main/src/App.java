@@ -9,7 +9,7 @@ public class App {
         System.setProperty("webdriver.chrome.driver", "webdriver computer direction***");
         WebDriver driver = new ChromeDriver();
         driver.manage().window().maximize();
-        //driver.get("http://44.195.187.31:3000");
+        
         driver.get("http://localhost:3000/login");
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(2));
 
