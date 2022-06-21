@@ -9,7 +9,7 @@ import org.openqa.selenium.support.ui.Select;
 
 public class ts {
    public static void main(String[] args) throws Exception{
-    System.setProperty("webdriver.chrome.driver", "/Users/alexabasurto/Desktop/ejercicios_computacion/TC3004b/tests/selenium-tests-BAMX/chromedriver");
+    System.setProperty("webdriver.chrome.driver", "computerdirection***/chromedriver");
     WebDriver driver = new ChromeDriver();
     driver.manage().window().maximize();
     driver.get("http://localhost:3000/login");
