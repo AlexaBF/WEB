@@ -12,7 +12,7 @@ public class App {
         driver.get("http://mitec.itesm.mx/");
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(2));
 
-        driver.findElement(By.id("Ecom_User_ID")).sendKeys("A01422793");
+        driver.findElement(By.id("Ecom_User_ID")).sendKeys("Usuario");
         driver.findElement(By.id("Ecom_Password")).sendKeys("contraseña");
         driver.findElement(By.id("submitButton")).click();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
