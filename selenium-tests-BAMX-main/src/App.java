@@ -6,7 +6,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class App {
     public static void main(String[] args) throws Exception {
-        System.setProperty("webdriver.chrome.driver", "/Users/alexabasurto/Desktop/ejercicios_computacion/TC3004b/tests/selenium-tests-BAMX/chromedriver");
+        System.setProperty("webdriver.chrome.driver", "webdriver computer direction***");
         WebDriver driver = new ChromeDriver();
         driver.manage().window().maximize();
         //driver.get("http://44.195.187.31:3000");
@@ -33,18 +33,7 @@ public class App {
         //driver.findElement(By.className("btnCloseSesion")).click();
         driver.get("http://localhost:3000/login"); 
 
-        /* 
-        driver.findElement(By.id("Ecom_User_ID")).sendKeys("A01422793");
-        driver.findElement(By.id("Ecom_Password")).sendKeys("contraseña");
-        driver.findElement(By.id("submitButton")).click();
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-
-        driver.findElement(By.id("nffc")).sendKeys("codigodeverificacion");
-        driver.findElement(By.id("loginButton2")).click();
-
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
-        System.out.println(driver.findElement(By.className("user__name")).getText());
-        */
+        
         
     }
 }
